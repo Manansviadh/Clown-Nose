@@ -1,0 +1,16 @@
+.btn-success:hover { background-color: red; }
+
+canvas {
+    animation-name: abc;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+@keyframes abc{
+    from {box-shadow: 5px 5px 18px red;}
+    to {box-shadow: 5px 5px 18px yellow;}
+    to {box-shadow: 5px 5px 18px greenyellow;}
+}
+
+#gun {
+font-size: 25px;
+}
